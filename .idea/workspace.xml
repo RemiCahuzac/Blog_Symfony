@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc5f40f-d145-4fa4-843b-7c87fe92cd59" name="Default Changelist" comment="" />
+    <list default="true" id="4dc5f40f-d145-4fa4-843b-7c87fe92cd59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +17,9 @@
     <execution>
       <executable path="C:\ProgramData\ComposerSetup\bin\composer" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,12 +130,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gyHBS35qqdzwrOiHGZAz5Fa8vZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -150,7 +161,7 @@
       <workItem from="1600527168110" duration="3377000" />
       <workItem from="1600618286544" duration="4011000" />
       <workItem from="1600714602165" duration="81000" />
-      <workItem from="1602058403940" duration="133000" />
+      <workItem from="1602058403940" duration="549000" />
     </task>
     <servers />
   </component>
@@ -166,6 +177,14 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="465" y="281" key="Github.CreateGistDialog/0.0.1280.720@0.0.1280.720" timestamp="1602058494001" />
+    <state x="509" y="259" key="Github.ShareDialog" timestamp="1602058767774">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="509" y="259" key="Github.ShareDialog/0.0.1280.720@0.0.1280.720" timestamp="1602058767774" />
+    <state x="436" y="66" key="Github.UntrackedFilesDialog" timestamp="1602058781085">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="436" y="66" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1602058781085" />
     <state x="477" y="264" key="NewPhpFileDialog" timestamp="1599080466760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
