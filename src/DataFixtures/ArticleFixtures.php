@@ -10,6 +10,8 @@ class ArticleFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
+
+
         for($i= 1 ; $i <= 10 ; $i++){
             $article = new Article();
             $article->setTitle("Titre de l'article n°$i")
