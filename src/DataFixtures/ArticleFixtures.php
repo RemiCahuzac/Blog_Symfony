@@ -5,14 +5,16 @@ namespace App\DataFixtures;
 use App\Entity\Article;
 use App\Entity\Category;
 use App\Entity\Comment;
+use DateTime;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
+use Faker\Factory;
 
 class ArticleFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
-        $faker = \Faker\Factory::create('fr_FR');
+        $faker = Factory::create('fr_FR');
 
         //Créer 3 Catégories Fakée
         for($i = 1; $i <= 3; $i++) {
@@ -40,7 +42,7 @@ class ArticleFixtures extends Fixture
 
                     $content = '<p>'.join($faker->paragraphs(2), '</p><p>'.'</p>');
 
-                    $days = (new \DateTime())->diff($article->getCreatedAt())->days;
+                    $days = (new DateTime())->diff($article->getCreatedAt())->days;
 
                     $comment->setAuthor($faker->name)
                             ->setContent($content)
