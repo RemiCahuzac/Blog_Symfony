@@ -12,9 +12,9 @@ class ArticleFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
-        $faker = Faker\Factory::create('Fr_fr');
+        $faker = \Faker\Factory::create('fr_FR');
 
-        //Créer 3 Cat"gories Fakée
+        //Créer 3 Catégories Fakée
         for($i = 1; $i <= 3; $i++) {
             $category = new Category();
             $category->setTitle($faker->sentence())
@@ -25,11 +25,11 @@ class ArticleFixtures extends Fixture
             for ($j = 1; $j <= mt_rand(4,6); $j++) {
                 $article = new Article();
 
-                $content = '<p>'.join($faker->paragraph(5), '</p><p>'.'</p>');
+                $content = '<p>'. join($faker->paragraphs(5), '</p><p>') . '</p>';
 
                 $article->setTitle($faker->sentence())
                     ->setContent($content)
-                    ->setImage($faker->imageUrl())
+                    ->setImage('http://via.placeholder.com/640')
                     ->setCreatedAt($faker->dateTimeBetween('-6 months'))
                     ->setCategory($category);
 
@@ -38,14 +38,16 @@ class ArticleFixtures extends Fixture
                 for ($k = 1; $k <= mt_rand(4,10); $k++) {
                     $comment = new Comment();
 
-                    $content = '<p>'.join($faker->paragraph(2), '</p><p>'.'</p>');
+                    $content = '<p>'.join($faker->paragraphs(2), '</p><p>'.'</p>');
 
-
-
+                    $days = (new \DateTime())->diff($article->getCreatedAt())->days;
 
                     $comment->setAuthor($faker->name)
                             ->setContent($content)
-                            ->setCreatedAt();
+                            ->setCreatedAt($faker->dateTimeBetween('-' . $days . ' days'))
+                            ->setArticle($article);
+
+                    $manager->persist($comment);
                 }
             }
         }

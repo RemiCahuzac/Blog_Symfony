@@ -25,14 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dc5f40f-d145-4fa4-843b-7c87fe92cd59" name="Default Changelist" comment="Ajout des Catégories et Commentaire">
-      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="4dc5f40f-d145-4fa4-843b-7c87fe92cd59" name="Default Changelist" comment="Mise en place de Faker pour Catégories, Article et commentaires.&#10;1 / 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ArticleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +195,8 @@
       <workItem from="1602861613975" duration="23000" />
       <workItem from="1602861665958" duration="4387000" />
       <workItem from="1602953591043" duration="28000" />
-      <workItem from="1602953660482" duration="1908000" />
+      <workItem from="1602953660482" duration="2006000" />
+      <workItem from="1602959101971" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="Test second commit">
       <created>1602059009311</created>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602866321119</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mise en place de Faker pour Catégories, Article et commentaires.&#10;1 / 2">
+      <created>1602955647618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602955647618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +260,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test second commit" />
     <MESSAGE value="Ajout des Catégories et Commentaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Mise en place de Faker pour Catégories, Article et commentaires.&#10;1 / 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de Faker pour Catégories, Article et commentaires.&#10;1 / 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="220" key="#Composer" timestamp="1599079828125">
@@ -286,9 +294,10 @@
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599121611322" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1600100737803" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1602058536769" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1602866344353">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1602955653804">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1602955653804" />
     <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602866344353" />
     <state x="458" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602861950956">
       <screen x="0" y="0" width="1280" height="720" />
