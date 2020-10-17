@@ -25,13 +25,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dc5f40f-d145-4fa4-843b-7c87fe92cd59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20201016160239.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
+    <list default="true" id="4dc5f40f-d145-4fa4-843b-7c87fe92cd59" name="Default Changelist" comment="Ajout des Catégories et Commentaire">
+      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +154,7 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gyHBS35qqdzwrOiHGZAz5Fa8vZ" />
@@ -192,7 +194,9 @@
       <workItem from="1600714602165" duration="81000" />
       <workItem from="1602058403940" duration="861000" />
       <workItem from="1602861613975" duration="23000" />
-      <workItem from="1602861665958" duration="4267000" />
+      <workItem from="1602861665958" duration="4387000" />
+      <workItem from="1602953591043" duration="28000" />
+      <workItem from="1602953660482" duration="1908000" />
     </task>
     <task id="LOCAL-00001" summary="Test second commit">
       <created>1602059009311</created>
@@ -201,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602059009311</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout des Catégories et Commentaire">
+      <created>1602866298494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602866298494</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout des Catégories et Commentaire">
+      <created>1602866321119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602866321119</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,13 +252,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test second commit" />
+    <MESSAGE value="Ajout des Catégories et Commentaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="220" key="#Composer" timestamp="1599079828125">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="451" y="220" key="#Composer/0.0.1280.680@0.0.1280.680" timestamp="1599079828125" />
+    <state x="321" y="97" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602953610894">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="321" y="97" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1602953610894" />
     <state x="465" y="281" key="Github.CreateGistDialog" timestamp="1602058494001">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -263,10 +286,10 @@
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599121611322" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1600100737803" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1602058536769" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1602059259244">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1602866344353">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602059259244" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602866344353" />
     <state x="458" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602861950956">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
