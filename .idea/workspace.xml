@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,12 +28,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dc5f40f-d145-4fa4-843b-7c87fe92cd59" name="Default Changelist" comment="Mise en place de Faker pour Catégories, Article et commentaires.&#10;1 / 2">
+    <list default="true" id="4dc5f40f-d145-4fa4-843b-7c87fe92cd59" name="Default Changelist" comment="Petite modif">
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201018133328.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/CommentType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/RegistrationType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/registration.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/ArticleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/create.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,6 +183,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -196,7 +208,8 @@
       <workItem from="1602861665958" duration="4387000" />
       <workItem from="1602953591043" duration="28000" />
       <workItem from="1602953660482" duration="2006000" />
-      <workItem from="1602959101971" duration="3015000" />
+      <workItem from="1602959101971" duration="3121000" />
+      <workItem from="1603027376874" duration="9199000" />
     </task>
     <task id="LOCAL-00001" summary="Test second commit">
       <created>1602059009311</created>
@@ -226,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602955647618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mise en place de Faker pour Catégories, Article et commentaires.&#10;2 / 2">
+      <created>1602962162613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602962162613</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Petite modif">
+      <created>1602962238234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602962238234</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,13 +288,19 @@
     <MESSAGE value="Test second commit" />
     <MESSAGE value="Ajout des Catégories et Commentaire" />
     <MESSAGE value="Mise en place de Faker pour Catégories, Article et commentaires.&#10;1 / 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de Faker pour Catégories, Article et commentaires.&#10;1 / 2" />
+    <MESSAGE value="Mise en place de Faker pour Catégories, Article et commentaires.&#10;2 / 2" />
+    <MESSAGE value="Petite modif" />
+    <option name="LAST_COMMIT_MESSAGE" value="Petite modif" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="220" key="#Composer" timestamp="1599079828125">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="451" y="220" key="#Composer/0.0.1280.680@0.0.1280.680" timestamp="1599079828125" />
+    <state x="446" y="43" key="#com.intellij.ide.util.MemberChooser" timestamp="1603032184181">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="43" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603032184181" />
     <state x="321" y="97" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602953610894">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -294,14 +327,23 @@
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599121611322" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1600100737803" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1602058536769" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1602955653804">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1602962240939">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1602955653804" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1602962240939" />
     <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602866344353" />
-    <state x="458" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602861950956">
+    <state x="458" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603027444981">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="458" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603027444981" />
     <state x="458" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1602861950956" />
+    <state x="297" y="161" key="run.anything.popup" timestamp="1603031892676">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603031892676" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1603035705031">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603035705031" />
   </component>
 </project>
